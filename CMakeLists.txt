@@ -12,4 +12,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Add compile options
 add_compile_options("-Wall;-Wextra;-Weffc++;")
 
-add_subdirectory( src )
+add_subdirectory(src)
+add_subdirectory(tst)
