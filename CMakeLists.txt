@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Add compile options
-add_compile_options("-Wall;-Wextra;-Weffc++;")
+add_compile_options("-Wall;-Wextra;-Weffc++;--coverage;")
 
 add_subdirectory(src)
 add_subdirectory(tst)
