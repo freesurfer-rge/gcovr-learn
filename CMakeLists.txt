@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.10)
 project("gcovr-learn" LANGUAGES CXX)
 
 set(Boost_USE_STATIC_LIBS ON)
